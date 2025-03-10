@@ -8,7 +8,7 @@ public class SplIteratorEx1 {
 
 	public static void main(String[] args) {
 		
-		List<String> names = Arrays.asList("Dhoni", "Kholi", "Padya");
+		List<String> names = Arrays.asList("Dhoni", "Kholi", "Pandya");
 		
 		Spliterator<String> spl = names.stream().spliterator();
 		
